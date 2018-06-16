@@ -44,8 +44,8 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/PIVX-Project/PIVX.git
-        cd PIVX
+        git clone https://github.com/DOPLR-Project/DOPLR.git
+        cd DOPLR
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
@@ -74,7 +74,7 @@ Download Qt Creator from http://www.qt.io/download/. Download the "community edi
 1. Make sure you installed everything through homebrew mentioned above
 2. Do a proper ./configure --with-gui=qt5 --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
-4. Enter "pivx-qt" as project name, enter src/qt as location
+4. Enter "doplr-qt" as project name, enter src/qt as location
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."
@@ -86,9 +86,9 @@ Creating a release build
 ------------------------
 You can ignore this section if you are building `pivxd` for your own use.
 
-pivxd/pivx-cli binaries are not included in the pivx-Qt.app bundle.
+pivxd/doplr-cli binaries are not included in the doplr-Qt.app bundle.
 
-If you are building `pivxd` or `pivx-qt` for others, your build machine should be set up
+If you are building `pivxd` or `doplr-qt` for others, your build machine should be set up
 as follows for maximum compatibility:
 
 All dependencies should be compiled with these flags:
@@ -97,7 +97,7 @@ All dependencies should be compiled with these flags:
  -arch x86_64
  -isysroot $(xcode-select --print-path)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
 
-Once dependencies are compiled, see release-process.md for how the PIVX-Qt.app
+Once dependencies are compiled, see release-process.md for how the DOPLR-Qt.app
 bundle is packaged and signed to create the .dmg disk image that is distributed.
 
 Running
@@ -109,18 +109,18 @@ directory. We have to first create the RPC configuration file, though.
 Run `./pivxd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=pivxrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    echo -e "rpcuser=pivxrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/DOPLR/doplr.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/DOPLR/doplr.conf"
 
 The next time you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours;
 you can monitor its process by looking at the debug.log file, like this:
 
-    tail -f $HOME/Library/Application\ Support/PIVX/debug.log
+    tail -f $HOME/Library/Application\ Support/DOPLR/debug.log
 
 Other commands:
 -------
 
-    ./pivxd -daemon # to start the pivx daemon.
-    ./pivx-cli --help  # for a list of command-line options.
-    ./pivx-cli help    # When the daemon is running, to get a list of RPC commands
+    ./pivxd -daemon # to start the doplr daemon.
+    ./doplr-cli --help  # for a list of command-line options.
+    ./doplr-cli help    # When the daemon is running, to get a list of RPC commands
