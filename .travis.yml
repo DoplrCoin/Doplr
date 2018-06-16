@@ -78,5 +78,6 @@ deploy:
   local-dir: "/"
   upload-dir: "/"
   acl: public_road
+  skip_cleanup: true
   on:
     repo: DoplrCoin/Doplr
