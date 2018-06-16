@@ -75,9 +75,9 @@ deploy:
   secret_access_key:
     secure: Ez++PYaMA26MrRSSA3xe1L25R6TLq9LG6B9UnYOktGcRlwECCdo6+DCJaKnML200N3CbTmYYctrKlS391+3LtatP1pI/1kjhHmeBvgiMxc2cuLleRZRb8Y7Y1PGIRMSXFN+qzL3R6OMjONNoUCfW/jvfsz5/W4AjOe5IWaiw9962cSukpR2P0QSgBg21lHUPH9ilBtXRakvvmSTE5TOfsu8IQQ5JHtA4DuMEgbrHxc474J7j5HgJ3Mt+t1ZuxziwY63wMrkHSXXe7kT9oXjQ8DzHjg40LFeMBCQ5BxMY495eHrMNHOB89ZuZZyop311Ke2J/2XguVs/GFnu4nS6d93rBrH2a3MQD0kVQPaHgVy/zCQ8Lw9AwcJkPTRoox6CKv52vK2vD/wJRVMKt4qP1a8IJXg9cfjjubj4jViKIsoSTcrT1afBVZ5uR8flKRJJxTmNQjz2gW2kbLL1ffeBMtaw3z9wdIO6yY5oxG3ctXWlWnaYKNCXgmBNP6L9vuYNeUHGw8sp3DfB77v8rOWGMhdcklvD2DJRFRJ14gePs2qM9sz8HTj0DCL/vjQLh0Ki5fP/s48HFLsvYl1YWmHcGjOKbQm/yMNxPxZQs9FSrm9ygmPySCu5eXtWAZOs6kyrd8rOTtR8FEJLvIzZDccdCsWb/Ut70CV+u4Qe1SdmnRns=
   bucket: doplr-buildbot
-  local-dir: "/"
-  upload-dir: "/"
-  acl: public_road
+  #local-dir: "/"
+  #upload-dir: "/"
+  #acl: public_road
   skip_cleanup: true
   on:
     repo: DoplrCoin/Doplr
