@@ -645,7 +645,7 @@
         <translation>flik vertygsrad</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
+        <source>DOPLR Core</source>
         <translation>PIVX Kärna</translation>
     </message>
     <message>
@@ -669,11 +669,11 @@
         <translation>Utforska masternoder</translation>
     </message>
     <message>
-        <source>&amp;About PIVX Core</source>
+        <source>&amp;About DOPLR Core</source>
         <translation>Om PIVX Kärnan</translation>
     </message>
     <message>
-        <source>Show information about PIVX Core</source>
+        <source>Show information about DOPLR Core</source>
         <translation>Visa information om PIVX Kärnan</translation>
     </message>
     <message>
@@ -729,11 +729,11 @@
         <translation>Blockera utforskarfönstret</translation>
     </message>
     <message>
-        <source>Show the PIVX Core help message to get a list with possible PIVX command-line options</source>
-        <translation>Visa PIVX Core hjälp meddelande för att få en lista med möjliga PIVX kommandorad alternativ</translation>
+        <source>Show the DOPLR Core help message to get a list with possible PIVX command-line options</source>
+        <translation>Visa DOPLR Core hjälp meddelande för att få en lista med möjliga PIVX kommandorad alternativ</translation>
     </message>
     <message>
-        <source>PIVX Core client</source>
+        <source>DOPLR Core client</source>
         <translation>PIVX kärn klient</translation>
     </message>
     <message numerus="yes">
@@ -1231,7 +1231,7 @@ MultiSend: %1</translation>
         <translation>version</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
+        <source>DOPLR Core</source>
         <translation>PIVX Kärna</translation>
     </message>
     <message>
@@ -1239,7 +1239,7 @@ MultiSend: %1</translation>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About PIVX Core</source>
+        <source>About DOPLR Core</source>
         <translation>Om PIVX Kärna</translation>
     </message>
     <message>
@@ -1286,15 +1286,15 @@ MultiSend: %1</translation>
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to PIVX Core.</source>
+        <source>Welcome to DOPLR Core.</source>
         <translation>Välkommen till PIVX Kärna.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVX Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where DOPLR Core will store its data.</source>
         <translation>Eftersom detta är första gången programmet körs så kan du välja var PIVX Kärnan ska spara sin data.</translation>
     </message>
     <message>
-        <source>PIVX Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>DOPLR Core will download and store a copy of the PIVX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation> Kärnan kommer ladda ner och spara en kopia av PIVX block chain. Minst %1GB data kommer sparas i denna katalog och den kommer växa med tiden. Plånboken kommer också sparas i denna katalog.</translation>
     </message>
     <message>
@@ -1306,7 +1306,7 @@ MultiSend: %1</translation>
         <translation>Använd en skräddarsydd data katalog</translation>
     </message>
     <message>
-        <source>PIVX Core</source>
+        <source>DOPLR Core</source>
         <translation>PIVX Kärna</translation>
     </message>
     <message>
@@ -3871,7 +3871,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVX Core is shutting down...</source>
+        <source>DOPLR Core is shutting down...</source>
         <translation>PIVX Kärna stängs ner...</translation>
     </message>
     <message>
@@ -4005,7 +4005,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVX Core</source>
+        <source>DOPLR Core</source>
         <translation>PIVX Kärna</translation>
     </message>
     <message>
@@ -4021,7 +4021,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Dash Kärna utvecklarna</translation>
     </message>
     <message>
-        <source>The PIVX Core developers</source>
+        <source>The DOPLR Core developers</source>
         <translation>PIVX Kärna utvecklarna</translation>
     </message>
     <message>
@@ -4678,7 +4678,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Beräknade ackumulator kontrollstation är inte vad som sparats av block index</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVX Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DOPLR Core is probably already running.</source>
         <translation>Kan ej låsa in på data katalog %s. PIVX Kärna körs förmodligen redan.</translation>
     </message>
     <message>
@@ -4850,7 +4850,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Denna produkt inkluderar mjukvara utvecklad av OpenSSL Projektet för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara skriven av Eric Young och UPnP mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVX Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. DOPLR Core is probably already running.</source>
         <translation>Kan inte binda till %s på denna dator. PIVX Kärna körs förmodligen redan.</translation>
     </message>
     <message>
@@ -4870,7 +4870,7 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Varning: -maxtxfee är sätt väldigt högt! Detta är transaktionsavgiften du kommer betala om du skickar en transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVX Core will not work properly.</source>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DOPLR Core will not work properly.</source>
         <translation>Varning: Var vänlig kontrollera att din dators tid och datum är korrekt! Om din klocka är fel så kommer PIVX Kärna inte att fungera korrekt.</translation>
     </message>
     <message>
@@ -5022,8 +5022,8 @@ Minta antingen högre valörer (så att färre inputs behövs) eller spendera mi
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
+        <source>Copyright (C) 2015-%i The DOPLR Core Developers</source>
+        <translation>Copyright (C) 2015-%i The DOPLR Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
