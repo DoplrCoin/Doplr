@@ -1,6 +1,6 @@
 [Protocol]
-exec=doplr-qt '%u'
-protocol=doplr
+exec=pivx-qt '%u'
+protocol=pivx
 input=none
 output=none
 helper=true

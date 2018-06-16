@@ -1,18 +1,18 @@
 [Unit]
-Description=DOPLR's distributed currency daemon
+Description=PIVX's distributed currency daemon
 After=network.target
 
 [Service]
-User=doplr
-Group=doplr
+User=pivx
+Group=pivx
 
 Type=forking
 PIDFile=/var/lib/pivxd/pivxd.pid
 
 ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/doplr/doplr.conf -datadir=/var/lib/pivxd
+          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
 
-ExecStop=-/usr/bin/doplr-cli -conf=/etc/doplr/doplr.conf \
+ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
          -datadir=/var/lib/pivxd stop
 
 Restart=always

@@ -272,6 +272,6 @@
     <name>ZPivControlDialog</name>
     </context>
 <context>
-    <name>doplr-core</name>
+    <name>pivx-core</name>
     </context>
 </TS>
